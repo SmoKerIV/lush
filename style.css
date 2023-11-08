@@ -119,3 +119,85 @@ header .title .buttons{
     cursor: pointer;
     transition: .5s;
 }
+
+.offers{
+padding: 5rem;
+}
+.offers h1{
+    text-align: center;
+    color: #285A43;
+    font-size: 40px;
+    font-weight: 700;
+}
+.offers .offers-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 40px;
+    margin: 50px;
+    padding: 50px;
+
+}
+.offers .offers-grid .offer img{
+    
+    width: 180px;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 4px;
+}
+.offers .offers-grid .offer .details{
+    display: flex;
+    justify-content: space-between;
+}
+.details p{
+    color: #285A43;
+    font-size:15px;
+    font-weight: 700;
+}
+.details span{
+    color: #b4b4b4;
+    text-decoration: line-through;
+}
+.details button{
+    background-color: #ffffff;
+    color: #285A43; 
+    border: solid 1px #285A43;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 800;
+}
+.details button:hover{
+    background-color: #285A43;
+    border: solid 1px #285A43;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .5s;
+}
+.gallery h1{
+    text-align: center;
+    color: #285A43;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px;
+}
+.gallery-grid {
+    display: grid; 
+    box-sizing: border-box;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 300px;
+    gap: 1rem;
+
+}
+.gallery-grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-col2 {
+    grid-column: span 2;
+}
+
+.image-row2 {
+    grid-row: span 2;
+}
