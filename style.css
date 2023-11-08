@@ -395,3 +395,54 @@ header .title .buttons {
     color: #285A43;
     text-decoration: none;
 }
+.blog-grid .post .details .date a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .5s;
+}
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+}
+footer h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px;
+}
+footer .icons{
+    display: flex;
+    justify-content: center;
+}
+footer .icons img{  
+    width: 50px;
+    height: 100%;
+    margin:5px 30px;
+}
+footer .icons img:hover{
+    cursor: pointer;
+    transition: .5s;
+}
+footer ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+footer ul li a{
+    display: flex;
+    margin: 10px;
+    text-decoration: none;
+ color: #ffffff;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .5s;  
+}
+footer .footer-links{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 300px;
+}
