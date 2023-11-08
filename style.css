@@ -24,7 +24,7 @@ header nav {
 }
 
 header nav img {
-    width: 80px;
+    width: 100px;
     height: 100%;
 }
 
@@ -367,6 +367,7 @@ header .title .buttons {
     font-size: 15px;
     font-weight: 400;
     padding-top: 10px;
+    padding-bottom: 20px;
     color: #121212;
 
 }
