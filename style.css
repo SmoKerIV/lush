@@ -8,7 +8,7 @@
 }
 
 header {
-    background-image: url(assets/head/cover.svg);
+    background-image: url(assets/head/cover.png);
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -282,7 +282,7 @@ header .title .buttons {
 
 .mail {
     background-image: url(assets/mail/cover.svg);
-    height: 400px;
+    height:400px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -291,7 +291,7 @@ header .title .buttons {
 .mail h1{
     text-align: center;
     color: #ffffff;
-    padding-top:100px;
+    padding-top:50px;
     padding-bottom: 30px;
     font-size: 40px;
     font-weight: 700;
@@ -387,6 +387,7 @@ header .title .buttons {
     font-weight: 500;
     color: #121212;
     opacity: .8;
+    padding-top: 10px;
 }
 .blog-grid .post .details .date a{
     font-family: 'lato', sans-serif;
